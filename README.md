@@ -17,3 +17,19 @@ Code_challange.py
 
 ## Funcionamiento de ejemplo 1
 ![](./imgs/Hnet-image.gif)
+
+## Para ejemplo 2:
+Clonar el siguiente repositorio para correr yolov3
+
+https://github.com/theAIGuysCode/Object-Detection-API
+
+Cambiar el archivo detect_video.py por el proporcionado en este repositorio
+
+correr el python antes mencionado de la sigueinte forma
+
+python detect_video.py --video 0
+
+por ultimo correr el codigo en processing que se presenta en este repo para el ejemplo 2
+
+## Funcionamiento de ejemplo 2
+![](./imgs/Hnet-image.gif)
