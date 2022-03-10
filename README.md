@@ -16,4 +16,4 @@ Code_challange.py
 ```
 
 ## Funcionamiento de ejemplo 1
-![](./)
+![](./imgs/Hnet-image.gif)
