@@ -1,7 +1,7 @@
 # MiniReto_Vision
 Mini reto de vision
 
-El siguiente repo busca poder desarrollar habilidades básicas de visión computacional utilizando herramientas como [OpenCV](https://opencv.org/) y Processing(https://processing.org/).
+El siguiente repo busca poder desarrollar habilidades básicas de visión computacional utilizando herramientas como [OpenCV](https://opencv.org/) y [Processing](https://processing.org/).
 
 ## Para ejemplo 1:
 Este ejemplo busca poder arrastrar un cuadro al identificar una mano y cerrando los dedos medio e índice.
