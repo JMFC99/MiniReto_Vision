@@ -32,4 +32,4 @@ python detect_video.py --video 0
 por ultimo correr el codigo en processing que se presenta en este repo para el ejemplo 2
 
 ## Funcionamiento de ejemplo 2
-![](./imgs/Hnet-image.gif)
+![](./imgs/mp4.gif)
