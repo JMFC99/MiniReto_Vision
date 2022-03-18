@@ -19,6 +19,9 @@ col  = (255, 0, 255)
 
 while cap.isOpened():
     success, img = cap.read()
+    # print((x-w //2>= 0) and ( y-h // 2>=800) and (x+w // 2<=500) and (y+h // 2<=500))
+    # print(img)
+    # print(success)
     img = detector.findHands(img)
     lmList, bboxInfo = detector.findPosition(img)
 
@@ -40,10 +43,19 @@ while cap.isOpened():
                 col = (10, 5, 255)
 
 
+    touched = (20,0,220)
+
     cv2.rectangle(img, (x-w // 2, y-h // 2), (x+w // 2, y+h // 2), col, cv2.FILLED)
     cv2.putText(img, f'({str(x)}, {str(y)})', (x-90, y), cv2.FONT_HERSHEY_COMPLEX_SMALL, 1, (0, 0, 0), 2)
-
-
+    
+    if ((y-h//2>=500 or y+h//2>=500)):
+        # if  (not((x-w // 2>=800) )) or (not((x-w // 2<=1400))):
+            touched = (0,255,0)
+            
+    cv2.rectangle (img,(0,800),(2000,500),touched,cv2.FILLED)
+    # cv2.rectangle(img,(0,2000),(2000,2000),touched,cv2.FILLED)
     cv2.imshow("Image", img)
     cv2.waitKey(1)
+
+
 
